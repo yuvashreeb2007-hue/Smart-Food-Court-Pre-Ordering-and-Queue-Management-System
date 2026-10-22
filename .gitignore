@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+server/.env
+client/.env
+
+# Build output
+dist/
+client/dist/
+server/dist/
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Temporary files and test output
+.tmp/
+coverage/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
