@@ -2,7 +2,7 @@ import React from 'react';
 import { FoodItem } from '../../types';
 import { AvailabilityBadge } from '../ui/Badge';
 import { Button } from '../ui/Button';
-import { Plus, Clock, Utensils } from 'lucide-react';
+import { Plus, Clock } from 'lucide-react';
 import { useCart } from '../../contexts/CartContext';
 
 interface FoodCardProps {

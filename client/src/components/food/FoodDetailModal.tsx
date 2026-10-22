@@ -3,7 +3,7 @@ import { FoodItem } from '../../types';
 import { Modal } from '../ui/Modal';
 import { Button } from '../ui/Button';
 import { AvailabilityBadge } from '../ui/Badge';
-import { Plus, Minus, Clock, Utensils, ShoppingBag } from 'lucide-react';
+import { Plus, Minus, Clock, ShoppingBag } from 'lucide-react';
 import { useCart } from '../../contexts/CartContext';
 
 interface FoodDetailModalProps {

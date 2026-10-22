@@ -4,7 +4,7 @@ import { Modal } from '../ui/Modal';
 import { Button } from '../ui/Button';
 import { useOrders } from '../../contexts/OrderContext';
 import { foodApi } from '../../services/api';
-import { UploadCloud, Image as ImageIcon, Trash2, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
+import { UploadCloud, Trash2, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
 
 interface FoodFormModalProps {
   isOpen: boolean;

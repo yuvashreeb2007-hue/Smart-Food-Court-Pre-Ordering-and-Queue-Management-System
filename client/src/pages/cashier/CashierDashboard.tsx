@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useOrders } from '../../contexts/OrderContext';
-import { useAuth, SEEDED_CREDENTIALS } from '../../contexts/AuthContext';
+import { useAuth } from '../../contexts/AuthContext';
 import { Order, OrderStatus, FoodItem, PaymentMethod } from '../../types';
 import { OrderStatusBadge, PaymentBadge } from '../../components/ui/Badge';
 import { Button } from '../../components/ui/Button';
@@ -16,8 +16,6 @@ import {
   CheckCircle2,
   AlertTriangle,
   Layers,
-  ShoppingBag,
-  Trash2,
   QrCode,
   ShieldCheck,
   AlertCircle,

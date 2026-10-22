@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useOrders } from '../../contexts/OrderContext';
 import { useAuth } from '../../contexts/AuthContext';
-import { FoodItem, Order, RefundRecord, RefundType } from '../../types';
+import { FoodItem, Order, RefundType } from '../../types';
 import { OrderStatusBadge, PaymentBadge } from '../../components/ui/Badge';
 import { Button } from '../../components/ui/Button';
 import { Modal } from '../../components/ui/Modal';
@@ -15,15 +15,11 @@ import {
   Plus,
   Edit2,
   Trash2,
-  Search,
-  Filter,
   AlertCircle,
-  FileText,
   ShieldCheck,
   Undo2,
   Calendar,
   Layers,
-  AlertTriangle,
 } from 'lucide-react';
 
 export const ManagerDashboard: React.FC = () => {
@@ -36,9 +32,6 @@ export const ManagerDashboard: React.FC = () => {
     deleteFoodItem,
     toggleFoodAvailability,
     recordRefund,
-    refreshFood,
-    refreshOrders,
-    refreshRefunds,
   } = useOrders();
   const { currentUser, switchRole, isAuthenticated } = useAuth();
 

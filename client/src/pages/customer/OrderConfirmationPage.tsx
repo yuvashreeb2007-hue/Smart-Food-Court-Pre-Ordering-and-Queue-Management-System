@@ -10,11 +10,8 @@ import { OrderStatusBadge, PaymentBadge } from '../../components/ui/Badge';
 import {
   CheckCircle2,
   Clock,
-  Printer,
-  ShoppingBag,
   ArrowRight,
   ShieldCheck,
-  AlertCircle,
   FileText,
   Loader2,
 } from 'lucide-react';
